@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ana Horneando — Ebooks de panadería y pastelería</title>
+<meta name="description" content="Ebooks de panadería y pastelería para aprender a hornear pan y postres desde cero, con recetas probadas paso a paso.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,500&family=Work+Sans:wght@400;500;600&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="nav" id="nav">
+  <a href="#inicio" class="nav-brand">Ana Horneando</a>
+  <button class="nav-toggle" id="navToggle" aria-label="Abrir menú" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+  <nav class="nav-links" id="navLinks">
+    <a href="#sobre-mi">Sobre mí</a>
+    <a href="#ebooks">Ebooks</a>
+    <a href="#contacto" class="nav-cta">Contactar</a>
+  </nav>
+</header>
+
+<main>
+
+  <!-- HERO -->
+  <section id="inicio" class="hero">
+    <div class="hero-text reveal">
+      <p class="eyebrow">panadería &amp; pastelería casera</p>
+      <h1>Del horno de mi casa <em>a tu cocina</em>.</h1>
+      <p class="hero-lead">
+        Soy Ana, panadera autodidacta desde hace más de diez años. Escribí dos ebooks
+        con todo lo que hubiera querido saber cuando empecé: recetas probadas,
+        errores comunes explicados y el paso a paso para que el pan y los postres
+        te salgan bien la primera vez.
+      </p>
+      <div class="hero-actions">
+        <a href="#ebooks" class="btn btn-primary">Ver los ebooks</a>
+        <a href="#contacto" class="btn btn-ghost">Tengo una consulta</a>
+      </div>
+    </div>
+    <div class="hero-photo reveal">
+      <div class="photo-frame">
+        <img src="assets/foto-perfil.jpg" onerror="this.src='assets/foto-perfil.svg'" alt="Foto de Ana en su cocina">
+        <span class="tape tape-left" aria-hidden="true"></span>
+        <span class="tape tape-right" aria-hidden="true"></span>
+      </div>
+    </div>
+  </section>
+
+  <div class="torn-divider" aria-hidden="true">
+    <svg viewBox="0 0 1200 40" preserveAspectRatio="none"><path d="M0,20 L20,8 L45,26 L70,4 L95,22 L120,10 L145,28 L170,6 L195,24 L220,12 L245,30 L270,8 L295,26 L320,4 L345,22 L370,10 L395,28 L420,6 L445,24 L470,12 L495,30 L520,8 L545,26 L570,4 L595,22 L620,10 L645,28 L670,6 L695,24 L720,12 L745,30 L770,8 L795,26 L820,4 L845,22 L870,10 L895,28 L920,6 L945,24 L970,12 L995,30 L1020,8 L1045,26 L1070,4 L1095,22 L1120,10 L1145,28 L1170,6 L1200,20 L1200,40 L0,40 Z"/></svg>
+  </div>
+
+  <!-- SOBRE MÍ -->
+  <section id="sobre-mi" class="about">
+    <div class="about-grid">
+      <div class="reveal">
+        <p class="eyebrow">sobre mí</p>
+        <h2>Aprendí a hornear a fuerza de masas que no leudaron</h2>
+        <p>
+          Todo empezó en pandemia, con una bolsa de harina y muchísimos intentos fallidos.
+          Con el tiempo entendí que hornear bien no depende del talento, sino de entender
+          <strong>por qué</strong> funcionan las recetas: la fermentación, las temperaturas,
+          los tiempos de horno. Eso es justamente lo que enseño en mis ebooks.
+        </p>
+        <p>
+          Hoy horneo todos los días, doy talleres online y ayudé a cientos de personas
+          a hacer su primer pan casero y su primera torta que no se hunde en el medio.
+        </p>
+      </div>
+      <ul class="about-stats reveal">
+        <li><span class="stat-num">10+</span><span class="stat-label">años horneando</span></li>
+        <li><span class="stat-num">120</span><span class="stat-label">recetas probadas y repetidas</span></li>
+        <li><span class="stat-num">500+</span><span class="stat-label">lectores con sus ebooks</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- EBOOKS -->
+  <section id="ebooks" class="ebooks">
+    <p class="eyebrow center">mis ebooks</p>
+    <h2 class="center">Recetas que sí funcionan, explicadas sin vueltas</h2>
+    <p class="section-lead center">
+      Elegí el que más te interesa. Ambos incluyen fotos paso a paso, tips para
+      resolver los errores más comunes y una lista de compras para cada receta.
+    </p>
+
+    <div class="ebook-grid">
+
+      <article class="ebook-card reveal">
+        <div class="ebook-cover">
+          <img src="assets/ebook-panaderia.jpg" onerror="this.src='assets/ebook-panaderia.svg'" alt="Portada del ebook de panadería">
+        </div>
+        <div class="ebook-body">
+          <p class="ebook-tag">panadería</p>
+          <h3>Pan casero desde cero</h3>
+          <p>Guía completa para dominar el pan de todos los días: de la masa madre a la miga perfecta.</p>
+          <ul class="ebook-includes">
+            <li>18 recetas paso a paso</li>
+            <li>Guía de fermentación explicada</li>
+            <li>Solución a los 10 errores más comunes</li>
+          </ul>
+          <div class="ebook-footer">
+            <span class="price">$8.900 ARS</span>
+            <button class="btn btn-primary btn-sm" data-ebook="Pan casero desde cero">Quiero este ebook</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="ebook-card reveal">
+        <div class="ebook-cover">
+          <img src="assets/ebook-pasteleria.jpg" onerror="this.src='assets/ebook-pasteleria.svg'" alt="Portada del ebook de pastelería">
+        </div>
+        <div class="ebook-body">
+          <p class="ebook-tag">pastelería</p>
+          <h3>Postres que no fallan</h3>
+          <p>Tortas, tartas y postres clásicos con medidas exactas para que te salgan igual todas las veces.</p>
+          <ul class="ebook-includes">
+            <li>22 recetas dulces paso a paso</li>
+            <li>Tabla de conversión de medidas</li>
+            <li>Tips de decoración sin equipamiento especial</li>
+          </ul>
+          <div class="ebook-footer">
+            <span class="price">$9.900 ARS</span>
+            <button class="btn btn-primary btn-sm" data-ebook="Postres que no fallan">Quiero este ebook</button>
+          </div>
+        </div>
+      </article>
+
+    </div>
+
+    <p class="bundle-note reveal">
+      ¿Los querés los dos? Escribime por el formulario y te paso un precio especial por el combo.
+    </p>
+  </section>
+
+  <!-- CONTACTO -->
+  <section id="contacto" class="contact">
+    <div class="contact-card reveal">
+      <p class="eyebrow">contacto</p>
+      <h2>¿Tenés dudas antes de comprar?</h2>
+      <p class="section-lead">
+        Contame qué ebook te interesa y para qué querés aprender a hornear.
+        Te respondo yo misma, normalmente en menos de 24 horas.
+      </p>
+
+      <form id="contactForm" class="contact-form">
+        <!-- Reemplazá tu-email@ejemplo.com por tu email real. Ver README para más detalles -->
+        <input type="hidden" name="_subject" value="Nueva consulta desde la landing de ebooks">
+        <input type="text" name="_honey" class="honeypot" tabindex="-1" autocomplete="off" aria-hidden="true">
+
+        <div class="form-row">
+          <label for="name">Nombre</label>
+          <input type="text" id="name" name="name" required placeholder="¿Cómo te llamás?">
+        </div>
+
+        <div class="form-row">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required placeholder="tu@email.com">
+        </div>
+
+        <div class="form-row">
+          <label for="ebook">Ebook de interés</label>
+          <select id="ebook" name="ebook">
+            <option value="Pan casero desde cero">Pan casero desde cero</option>
+            <option value="Postres que no fallan">Postres que no fallan</option>
+            <option value="Los dos (combo)">Los dos (combo)</option>
+            <option value="Todavía no sé">Todavía no sé</option>
+          </select>
+        </div>
+
+        <div class="form-row">
+          <label for="message">Mensaje</label>
+          <textarea id="message" name="message" rows="4" required placeholder="Contame tu consulta..."></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary" id="submitBtn">Enviar consulta</button>
+
+        <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <p>Ana Horneando · <span id="year"></span></p>
+  <div class="footer-links">
+    <a href="https://instagram.com" target="_blank" rel="noopener">Instagram</a>
+    <a href="mailto:tu-email@ejemplo.com">Email</a>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
