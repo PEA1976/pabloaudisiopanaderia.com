@@ -1,9 +1,0 @@
-<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
-  <rect width="400" height="400" fill="#E8C468"/>
-  <circle cx="200" cy="160" r="70" fill="#F7F1E6"/>
-  <path d="M90 380c0-70 50-120 110-120s110 50 110 120z" fill="#F7F1E6"/>
-  <g fill="#2E1B12" opacity="0.55">
-    <text x="200" y="220" font-family="monospace" font-size="16" text-anchor="middle">REEMPLAZAME</text>
-    <text x="200" y="240" font-family="monospace" font-size="12" text-anchor="middle">assets/foto-perfil.jpg</text>
-  </g>
-</svg>
