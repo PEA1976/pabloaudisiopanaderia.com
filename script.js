@@ -69,7 +69,7 @@ const form = document.getElementById('contactForm');
 const submitBtn = document.getElementById('submitBtn');
 const formStatus = document.getElementById('formStatus');
 
-const FORM_ENDPOINT = 'https://formsubmit.co/ajax/tu-email@ejemplo.com';
+const FORM_ENDPOINT = 'https://formsubmit.co/ajax/pabloaudi@gmail.com';
 
 form.addEventListener('submit', async (event) => {
   event.preventDefault();
